@@ -1,0 +1,30 @@
+.experience{
+  background-color: #f5f5f7;
+  padding-bottom: 30px;
+}
+
+.experience img{
+  width: 100%;
+}
+
+.experience ul{
+  padding: 5px 16px;
+}
+/* 
+.experience h3{
+
+}
+
+.experience h4{
+
+}
+
+.experience h6{
+
+} */
+
+@media (min-width: 992px) {
+  .experience img{
+    width: 50%;
+  }
+}

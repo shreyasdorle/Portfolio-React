@@ -1,0 +1,12 @@
+.nav{ 
+  width: 100%;
+  text-align: center;
+}
+
+.nav .ant-anchor > .ant-anchor-ink{
+  display: none;
+}
+
+.nav .ant-anchor .ant-anchor-link{
+  float: left;
+}
