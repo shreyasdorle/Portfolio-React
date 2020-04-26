@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col, Table } from 'antd';
 import './index.css';
-import SkillsImg from '../../img/skills.jpg';
 
 export default function Skills(){
   const columns = [
@@ -45,16 +44,11 @@ export default function Skills(){
 
   return(
     <div id="skills" className="skills">
-      <Row>
-        <h1 className="heading">Skills</h1>
-        <Col span={0} lg={{span: 24}}>
-          <img src={SkillsImg} width="100%" alt="bg-img"/>
-        </Col>
-      </Row>
+      <h1 className="heading">Skills</h1>
       <div className="container">
         <div className="table-holder">
         <Row>
-          <Col span={24} lg={{span:14}}>
+          <Col span={24}>
             <Table columns={columns} dataSource={data} size="small" pagination={false} showHeader={false} bordered={false} />
           </Col>
         </Row>

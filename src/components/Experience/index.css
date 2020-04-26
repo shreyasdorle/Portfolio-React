@@ -10,18 +10,20 @@
 .experience ul{
   padding: 5px 16px;
 }
-/* 
-.experience h3{
 
+.experience .list.hide{
+  max-height: 55px;
+  overflow: hidden;
 }
 
-.experience h4{
-
+.experience .list.show{
+  max-height: none;
+  overflow: visible;
 }
 
-.experience h6{
-
-} */
+.experience .ant-btn{
+  float: right;
+}
 
 @media (min-width: 992px) {
   .experience img{
