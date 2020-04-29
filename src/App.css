@@ -4,3 +4,7 @@
   text-decoration: underline;
   text-decoration-color: #f78e0c;
 }
+
+.anticon-down-circle:hover svg, .anticon-up-circle:hover svg{
+  color: #1890ff;
+}

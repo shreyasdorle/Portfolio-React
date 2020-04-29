@@ -1,6 +1,6 @@
 .experience{
   background-color: #f5f5f7;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .experience img{
@@ -25,7 +25,7 @@
   float: right;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .experience img{
     width: 50%;
   }

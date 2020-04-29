@@ -1,6 +1,7 @@
 .skills{
   position: relative;
-  background-color: #6ab8cc;
+  background-color: #292929;
+  padding-bottom: 60px;
 }
 
 .skills .heading{
@@ -16,7 +17,7 @@
 }
 
 .skills .ant-table{
-  background-color: #6ab8cc;
+  background-color: #292929;
   color: #fff;
   font-weight: 500;
 }

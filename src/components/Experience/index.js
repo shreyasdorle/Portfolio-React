@@ -28,10 +28,10 @@ export default function Experience(){
       <div className="container">
         <h1 className="heading">Experience</h1>
         <Row gutter={[20,30]}>
-          <Col span={6} lg={{span:8}} style={{textAlign: 'center'}}>
+          <Col span={6} md={{span:8}} style={{textAlign: 'center'}}>
             <img src={freedomLogo} alt="logo" />
           </Col>
-          <Col span={18} lg={{span:16}} style={{borderBottom: '1px solid #bfacac', marginBottom: '10px'}}>
+          <Col span={18} md={{span:16}} style={{borderBottom: '1px solid #bfacac', marginBottom: '10px'}}>
             <h2>Senior Software Engineer</h2>
             <h3>Freedom Financial Network</h3>
             <p>Feb 2020 - Present</p>
@@ -45,10 +45,10 @@ export default function Experience(){
           </Col>
         </Row>
         <Row gutter={[20,30]}>
-          <Col span={6} lg={{span:8}} style={{textAlign: 'center'}}>
+          <Col span={6} md={{span:8}} style={{textAlign: 'center'}}>
             <img src={asurionLogo} alt="logo" />
           </Col>
-          <Col span={18} lg={{span:16}} style={{borderBottom: '1px solid #bfacac', marginBottom: '10px'}}>
+          <Col span={18} md={{span:16}} style={{borderBottom: '1px solid #bfacac', marginBottom: '10px'}}>
             <h2>Software Engineer 3 - Web</h2>
             <h3>Asurion</h3>
             <p>Jul 2018 - Jan 2020</p>
@@ -68,10 +68,10 @@ export default function Experience(){
           </Col>
         </Row>
         <Row gutter={[20,30]}>
-          <Col span={6} lg={{span:8}} style={{textAlign: 'center'}}>
+          <Col span={6} md={{span:8}} style={{textAlign: 'center'}}>
             <img src={tvpageLogo} alt="logo" />
           </Col>
-          <Col span={18} lg={{span:16}} style={{borderBottom: '1px solid #bfacac', marginBottom: '10px'}}>
+          <Col span={18} md={{span:16}} style={{borderBottom: '1px solid #bfacac', marginBottom: '10px'}}>
             <h2>Full Stack Web Developer</h2>
             <h3>TVPage, Inc.</h3>
             <p>Nov 2015 - Jul 2018</p>
@@ -90,10 +90,10 @@ export default function Experience(){
           </Col>
         </Row>
         <Row gutter={[20,30]}>
-          <Col span={6} lg={{span:8}} style={{textAlign: 'center'}}>
+          <Col span={6} md={{span:8}} style={{textAlign: 'center'}}>
             <img src={UELogo} alt="logo" />
           </Col>
-          <Col span={18} lg={{span:16}}>
+          <Col span={18} md={{span:16}}>
             <h2>Software Engineer</h2>
             <h3>Underground Elephant</h3>
             <p>Dec 2014 - Oct 2015</p>

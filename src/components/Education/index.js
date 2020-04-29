@@ -10,10 +10,10 @@ export default function Education(){
       <div className="container">
         <h1 className="heading">Education</h1>
         <Row align="middle">
-          <Col span={24} lg={{span:8}} className="img-wrapper">
+          <Col span={24} md={{span:8}} className="img-wrapper">
             <img src={SdsuImg} alt="logo" />
           </Col>
-          <Col span={24} lg={{span:16}}>
+          <Col span={24} md={{span:16}}>
             <div className="text-wrapper">
               <p>Master of Science in Computer Science</p>
               <p>San Diego State University, CA</p>
@@ -23,10 +23,10 @@ export default function Education(){
           </Col>
         </Row>
         <Row align="middle">
-          <Col span={24} lg={{span:8}} className="img-wrapper">
+          <Col span={24} md={{span:8}} className="img-wrapper">
             <img src={NgpImg} alt="logo" />
           </Col>
-          <Col span={24} lg={{span:16}}>
+          <Col span={24} md={{span:16}}>
             <div className="text-wrapper">
               <p>Bachelor of Engineering in Computer Science &amp; Engineering</p>
               <p>Nagpur University, India</p>

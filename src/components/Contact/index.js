@@ -9,28 +9,28 @@ export default function Contact(){
       <div className="container">
         <h1 className="heading">Contact</h1>
         <Row gutter={[20,20]}>
-          <Col span={4} lg={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
-            <MailOutlined style={{ fontSize: '20px', color: '#08c' }}/>
+          <Col span={4} md={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
+            <MailOutlined style={{ fontSize: '20px', color: '#fff' }}/>
           </Col>
-          <Col span={20} lg={{span:16}}>
+          <Col span={20} md={{span:16}}>
             <h3>Email</h3>
             <a href="mailto:shreyas.dorle7@gmail.com">shreyas.dorle7@gmail.com</a>
           </Col>
         </Row>
         <Row gutter={[20,20]}>
-          <Col span={4} lg={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
-            <PhoneOutlined style={{ fontSize: '20px', color: '#08c', transform: 'rotate(100deg)' }}/>
+          <Col span={4} md={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
+            <PhoneOutlined style={{ fontSize: '20px', color: '#fff', transform: 'rotate(100deg)' }}/>
           </Col>
-          <Col span={20} lg={{span:16}}>
+          <Col span={20} md={{span:16}}>
             <h3>Phone</h3>
-            <p>(619)316-4227 (Mobile)</p>
+            <p>(619) 316-4227 (Mobile)</p>
           </Col>
         </Row>
         <Row gutter={[20,20]}>
-          <Col span={4} lg={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
-            <LinkedinOutlined style={{ fontSize: '20px', color: '#08c' }}/>
+          <Col span={4} md={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
+            <LinkedinOutlined style={{ fontSize: '20px', color: '#fff' }}/>
           </Col>
-          <Col span={20} lg={{span:16}}>
+          <Col span={20} md={{span:16}}>
             <h3>LinkedIn</h3>
             <a href="https://www.linkedin.com/in/shreyasdorle">https://www.linkedin.com/in/shreyasdorle</a>
           </Col>

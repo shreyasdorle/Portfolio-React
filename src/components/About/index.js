@@ -9,10 +9,10 @@ export default function About(){
       <div className="container">
         <h1 className="heading">About Me</h1>
         <Row align="middle">
-          <Col span={24} lg={{span:8}} style={{textAlign: 'center'}}>
+          <Col span={24} md={{span:8}} style={{textAlign: 'center'}}>
             <div className="profile-img" style={{backgroundImage: `url(${ProfileImg})` }}/>
           </Col>
-          <Col span={24} lg={{span:16}}>
+          <Col span={24} md={{span:16}}>
             <p> My web development career started when I created a simple web-page using HTML in High-school.
             I got excited to learn more about web developement.
             During my Bachelor's I worked on some projects in which I have used HTML, CSS, Javascript.
