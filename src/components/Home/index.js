@@ -43,7 +43,7 @@ export default function Home(){
       <div className="bg-image" style={{backgroundImage: `url(${Background})`, height: size.height }}>
         <div className="text-container">
           <h1>I am Shreyas Dorle.</h1>
-          <p>Front End Development is my Passion!</p>
+          <p>Front End Web Development is my Passion!</p>
         </div>
         <DownCircleOutlined onClick={handleClick} style={{ fontSize: '35px', color: '#fff', position: 'absolute', bottom: '13px' }}/>
       </div>
