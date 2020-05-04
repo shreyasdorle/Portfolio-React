@@ -12,7 +12,7 @@ export default function About(){
           <Col span={24} md={{span:8}} style={{textAlign: 'center'}}>
             <div className="profile-img" style={{backgroundImage: `url(${ProfileImg})` }}/>
           </Col>
-          <Col span={24} md={{span:16}}>
+          <Col span={24} md={{span:16}} style={{padding: '30px 0'}}>
             <p>
               I'm web developer with 6 years of professional work experience, currently residing in Bay Area.
               My web development journey started in high school when I created my first User Interface and developed keen interest in web technologies.
