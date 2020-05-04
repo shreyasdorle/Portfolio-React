@@ -23,7 +23,7 @@ export default function Contact(){
           </Col>
           <Col span={20} md={{span:16}}>
             <h3>Phone</h3>
-            <p>(619) 316-4227 (Mobile)</p>
+            <a href="tel:1-619-316-4227">(619) 316-4227 (Mobile)</a>
           </Col>
         </Row>
         <Row gutter={[20,20]}>
@@ -32,7 +32,7 @@ export default function Contact(){
           </Col>
           <Col span={20} md={{span:16}}>
             <h3>LinkedIn</h3>
-            <a href="https://www.linkedin.com/in/shreyasdorle">https://www.linkedin.com/in/shreyasdorle</a>
+            <a href="https://www.linkedin.com/in/shreyasdorle" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/shreyasdorle</a>
           </Col>
         </Row>
       </div>

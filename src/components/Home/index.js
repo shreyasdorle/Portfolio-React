@@ -27,7 +27,8 @@ function useWindowSize() {
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, []); // Empty array ensures that effect is only run on mount and unmount
+    // eslint-disable-next-line
+  }, []);
 
   return windowSize;
 }
@@ -43,9 +44,9 @@ export default function Home(){
       <div className="bg-image" style={{backgroundImage: `url(${Background})`, height: size.height }}>
         <div className="text-container">
           <h1>I am Shreyas Dorle.</h1>
-          <p>Front End Web Development is my Passion!</p>
+          <p>Front End Web Development is my <span>Passion!</span></p>
         </div>
-        <DownCircleOutlined onClick={handleClick} style={{ fontSize: '35px', color: '#fff', position: 'absolute', bottom: '13px' }}/>
+        <DownCircleOutlined onClick={handleClick} style={{ fontSize: '35px', color: '#fff', position: 'absolute', bottom: '13px', left: 0, right: 0 }}/>
       </div>
     </div>
   )

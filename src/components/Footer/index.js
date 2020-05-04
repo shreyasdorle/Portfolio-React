@@ -8,7 +8,7 @@ export default function Footer(){
   }
   return(
     <div id="footer" className="footer">
-      <UpCircleOutlined onClick={handleClick} style={{ fontSize: '35px', color: '#fff', position: 'absolute', top: '-36px' }}/>
+      <UpCircleOutlined onClick={handleClick} style={{ fontSize: '35px', color: '#fff', position: 'absolute', top: '-43px', left: 0, right: 0 }}/>
       <p>Copyright © 2020 Shreyas Dorle. All Rights Reserved.</p>
     </div>
   )

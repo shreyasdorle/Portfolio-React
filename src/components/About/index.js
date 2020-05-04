@@ -13,22 +13,13 @@ export default function About(){
             <div className="profile-img" style={{backgroundImage: `url(${ProfileImg})` }}/>
           </Col>
           <Col span={24} md={{span:16}}>
-            <p> My web development career started when I created a simple web-page using HTML in High-school.
-            I got excited to learn more about web developement.
-            During my Bachelor's I worked on some projects in which I have used HTML, CSS, Javascript.
-            As time flies by and new technologies take over in web development.
-            To learn new stuff, I enrolled in web development coursework in San Diego State University while pursing my Master's in Computer Science.
-            I have learned and used HTML5, CSS3, Javascript, PHP, AJAX, XML.
-            Thereafter, I took some online tutorials for Angular.js, Grunt.js, Node.js, LESS, Bootstrap.
-            I have built some dashboards using React, Redux & Webpack while working for tech companies in Bay Area.
-            I am professionally working in the field of web development since past 6 years. During this period, I have gained tremendous knowledge about web technologies.
-            But there is always something new to learn, so I enjoy learning new stuff.
+            <p>
+              I'm web developer with 6 years of professional work experience, currently residing in Bay Area.
+              My web development journey started in high school when I created my first User Interface and developed keen interest in web technologies.
+              To enhanced my skillset, I took web development coursework while pursuing my Bachelor’s and Master’s in computer science.
             </p>
             <p>
-            People call me "Smiley face" because I always keep smiling.
-            I work with a positive attitude.
-            I like to keep myself busy by doing some extra-curricular activities.
-            My hobbies include Gym, Swimming, Dancing, Hiking, Pool, Ping Pong, listening quality music and watching movies.
+              Other than web development, I like to indulge in making delicious cuisines, dancing on bhangra beats, playing billiards and listening to different genres of music.
             </p>
           </Col>
         </Row>

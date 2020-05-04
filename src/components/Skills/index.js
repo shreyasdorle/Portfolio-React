@@ -1,27 +1,15 @@
 import React from 'react';
-import { Row, Col, Table } from 'antd';
+import { Row, Col } from 'antd';
 import './index.css';
 
 export default function Skills(){
-  const columns = [
-    {
-      dataIndex: 'field',
-    },
-    {
-      dataIndex: 'value',
-    }
-  ];
   const data = [
-    {
-      field: 'Languages:',
-      value: 'Javascript, PHP'
-    },
     {
       field: 'Web Technologies:',
       value: 'JavaScript, HTML5, CSS3, LESS, SASS, Bootstrap, PHP, AJAX, XML, TWIG.'
     },
     {
-      field: 'JS Libraries/Frameworks:',
+      field: 'JS Libraries / Frameworks:',
       value: 'React, Redux, React Hooks, jQuery, Backbone.js, Underscore.js, AngularJS, NodeJS, GruntJS.'
     },
     {
@@ -46,13 +34,18 @@ export default function Skills(){
     <div id="skills" className="skills">
       <h1 className="heading">Skills</h1>
       <div className="container">
-        <div className="table-holder">
-        <Row>
-          <Col span={24}>
-            <Table columns={columns} dataSource={data} size="small" pagination={false} showHeader={false} bordered={false} />
-          </Col>
-        </Row>
-        </div>
+        {data.map((value, index) => {
+          return (
+            <Row key={index}>
+              <Col span={8} className="field">
+                {value.field}
+              </Col>
+              <Col span={16}>
+                {value.value}
+              </Col>
+            </Row>
+          )
+        })}
       </div>
     </div>
   )
