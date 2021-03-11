@@ -6,10 +6,10 @@ import { MailOutlined, PhoneOutlined, LinkedinOutlined} from '@ant-design/icons'
 export default function Contact(){
   return(
     <div id="contact" className="contact">
-      <div className="container">
+      <div className="container holder">
         <h1 className="heading">Contact</h1>
-        <Row gutter={[20,20]}>
-          <Col span={4} md={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
+        <Row gutter={[30,0]} type="flex" align="top">
+          <Col span={4} md={{span:8}} className="col-1">
             <MailOutlined style={{ fontSize: '20px', color: '#fff' }}/>
           </Col>
           <Col span={20} md={{span:16}}>
@@ -17,8 +17,8 @@ export default function Contact(){
             <a href="mailto:shreyas.dorle7@gmail.com">shreyas.dorle7@gmail.com</a>
           </Col>
         </Row>
-        <Row gutter={[20,20]}>
-          <Col span={4} md={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
+        <Row gutter={[30,0]} type="flex" align="top">
+          <Col span={4} md={{span:8}} className="col-1">
             <PhoneOutlined style={{ fontSize: '20px', color: '#fff', transform: 'rotate(100deg)' }}/>
           </Col>
           <Col span={20} md={{span:16}}>
@@ -26,8 +26,8 @@ export default function Contact(){
             <a href="tel:1-619-316-4227">(619) 316-4227 (Mobile)</a>
           </Col>
         </Row>
-        <Row gutter={[20,20]}>
-          <Col span={4} md={{span:8}} style={{marginTop: '5px', textAlign: 'center'}}>
+        <Row gutter={[30,0]} type="flex" align="top">
+          <Col span={4} md={{span:8}} className="col-1">
             <LinkedinOutlined style={{ fontSize: '20px', color: '#fff' }}/>
           </Col>
           <Col span={20} md={{span:16}}>

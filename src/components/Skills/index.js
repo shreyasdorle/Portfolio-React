@@ -6,7 +6,7 @@ export default function Skills(){
   const data = [
     {
       field: 'Web Technologies:',
-      value: 'JavaScript, HTML5, CSS3, LESS, SASS, Bootstrap, PHP, AJAX, XML, TWIG.'
+      value: 'HTML5, CSS3, Javascript, PHP, LESS, SASS, Bootstrap, JSON, AJAX, XML, TWIG, Material UI, Antd.'
     },
     {
       field: 'JS Libraries / Frameworks:',
@@ -14,7 +14,7 @@ export default function Skills(){
     },
     {
       field: 'Tools:',
-      value: 'GitHub, Bitbucket, AWS, phpMyAdmin, Docker, JIRA, HUGO, Visual Studio, Looker, CircleCI.'
+      value: 'GitHub, Bitbucket, AWS, Google Cloud Platform, Postman, Docker, JIRA, HUGO, Looker, CircleCI.'
     },
     {
       field: 'UX Tools:',
@@ -22,7 +22,7 @@ export default function Skills(){
     },
     {
       field: 'Database:',
-      value: 'MySQL, Oracle11g.'
+      value: 'MySQL, DynamoDb, Firebase.'
     },
     {
       field: 'Operating System:',
